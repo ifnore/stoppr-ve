@@ -103,7 +103,7 @@ p {
   max-width: 900px;
   margin: 40px auto;
   padding: 20px;
-  font-family: Arial, sans-serif;
+  font-family: Roboto;
   gap: 40px;
   flex-wrap: wrap;
 }
@@ -167,5 +167,25 @@ form input:nth-child(3) {
 footer {
   background-color: #4525f2;
   color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
   font-family: Roboto;
+  font-size: 13px;
+}
+
+.social-icons i {
+  margin-right: 15px;
+  font-size: 20px;
+  color: white;
+}
+
+.social-icons i:last-child {
+  margin-right: 0;
+}
+
+footer p {
+  margin: 0;
+  font-weight: bold;
 }
