@@ -96,6 +96,74 @@ p {
   margin: 20px auto;
 }
 
+.contact {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.contact h4:first-of-type {
+  flex-basis: 100%;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.contact p {
+  max-width: 300px;
+  margin-bottom: 20px;
+  line-height: 1.4;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  flex: 1;
+  max-width: 500px;
+}
+
+form input[type="text"] {
+  padding: 10px 14px;
+  border: none;
+  border-radius: 10px;
+  background-color: #f1f3f9;
+  font-size: 14px;
+  width: 100%;
+}
+
+form input:nth-child(1),
+form input:nth-child(2) {
+  width: calc(50% - 6px);
+  display: inline-block;
+}
+
+form input:nth-child(1) {
+  margin-right: 12px;
+}
+
+form input:nth-child(3) {
+  height: 100px;
+}
+
+.send {
+  background-color: #4828f0;
+  color: white;
+  font-weight: bold;
+  border: none;
+  padding: 12px 0;
+  margin-top: 10px;
+  cursor: pointer;
+  width: 100%;
+  max-width: 500px;
+  margin-left: 540px;
+}
+
 footer {
   background-color: #4525f2;
   color: white;
