@@ -24,29 +24,42 @@ nav ul {
 header {
   color: white;
   background-image: url("/assets/img/topbg.jpg");
+  background-repeat: no-repeat;
+  min-height: 600px;
+  display: flex;
+  justify-content: center;
 }
 h1 {
   font-size: 80px;
   font-family: Roboto;
-  display: flex;
-  justify-content: center;
+  margin-top: 368px;
+  margin-bottom: 55px;
 }
 
 .readmore {
   background-color: #efefef;
   display: flex;
   justify-content: center;
+  flex-direction: wrap;
 }
 .readmore p {
   font-family: Roboto;
+  margin-left: 420px;
 }
 
 .blue {
   background-color: #4525f2;
   color: white;
   font-family: Roboto;
+  columns: 3;
+  column-width: 330px;
+  min-height: 545px;
+  align-items: center;
 }
-
+.blue h3,
+p {
+  margin-left: 420px;
+}
 footer {
   background-color: #4525f2;
   color: white;
