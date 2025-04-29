@@ -62,7 +62,6 @@ h1 {
   gap: 10px;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: repeat(4, auto);
-  grid-template-areas: ;
 }
 
 .blue {
@@ -82,6 +81,7 @@ h1 {
 .blue h3,
 p {
   font-size: 20px;
+  font-family: Roboto;
 }
 
 .blue a {
