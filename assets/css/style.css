@@ -8,7 +8,7 @@
 button {
   background-color: #4525f2;
   color: #ffffff;
-  padding: 13px 27px;
+  padding: 13px 36px;
   border-radius: 10px;
 }
 
@@ -39,8 +39,11 @@ h1 {
 .readmore {
   background-color: #efefef;
   display: flex;
-  justify-content: center;
-  flex-direction: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
+  background-color: #f2f2f2;
+  gap: 40px;
 }
 .readmore p {
   font-family: Roboto;
@@ -48,17 +51,34 @@ h1 {
 }
 
 .blue {
-  background-color: #4525f2;
+  width: 1920px;
+  margin: 0 auto;
+  background-color: #2e00ff;
   color: white;
-  font-family: Roboto;
-  columns: 3;
-  column-width: 330px;
-  min-height: 545px;
+  padding: 60px 80px;
+  box-sizing: border-box;
+  justify-content: center;
   align-items: center;
+  min-height: 545px;
+  column-count: 3;
+  column-gap: 40px;
 }
+
 .blue h3,
 p {
-  margin-left: 420px;
+  font-size: 20px;
+}
+
+.blue a {
+  color: white;
+  text-decoration: underline;
+}
+
+.blue img {
+  width: 234px;
+  height: 208px;
+  display: block;
+  margin: 20px auto;
 }
 footer {
   background-color: #4525f2;
