@@ -30,6 +30,7 @@ header {
   color: white;
   background-image: url("/assets/img/topbg.jpg");
   background-repeat: no-repeat;
+  background-size: cover;
   min-height: 600px;
   display: flex;
   justify-content: center;
