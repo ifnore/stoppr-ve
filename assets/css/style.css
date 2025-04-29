@@ -5,6 +5,11 @@
   box-sizing: border-box;
 }
 
+.max-width {
+  display: flex;
+  max-width: 1080px;
+}
+
 button {
   background-color: #4525f2;
   color: #ffffff;
@@ -50,6 +55,16 @@ h1 {
   margin-left: 420px;
 }
 
+.grid {
+  display: grid;
+  max-width: 1920px;
+  margin: 10px auto;
+  gap: 10px;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: repeat(4, auto);
+  grid-template-areas: ;
+}
+
 .blue {
   width: 1920px;
   margin: 0 auto;
@@ -80,6 +95,7 @@ p {
   display: block;
   margin: 20px auto;
 }
+
 footer {
   background-color: #4525f2;
   color: white;
